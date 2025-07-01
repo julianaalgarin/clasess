@@ -3,7 +3,7 @@
 # muestre un mensaje indicando si el paciente presenta: - Hipotermia (menos de 36°C) - Temperatura normal (entre 36°C y 37.5°C inclusive) - Fiebre (más de 37.5°C)
 
 
-temperatura = float (input("Ingrese la temperatura del paciente: "))
+temperatura = float (input("Ingrese la temperatura del paciente en grados celsius: "))
 if temperatura < 36:
     print("El paciente tiene hipotermia")
 elif 36 <= temperatura <= 37.5:
